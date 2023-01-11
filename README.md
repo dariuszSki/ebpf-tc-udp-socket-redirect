@@ -15,7 +15,7 @@
            aws specific tools package - ```linux-tools-aws```
   compile:
 
-        clang -O2 -Wall -Wextra -target bpf -c -o geneve.o geneve.c
+        clang -g  -O2 -Wall -Wextra -target bpf -c -o geneve.o geneve.c
   
   attach:
         
